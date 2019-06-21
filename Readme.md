@@ -4,3 +4,10 @@ I'm trying to build a bundle containing cometd and its client code into a single
 The code fails, however because rollupjs rewrites `this` to `undefined` - causing errors in the cometd startup code.
 
 See cometd [issue #863](https://github.com/cometd/cometd/issues/863)
+
+## Running
+The project is self contained - all you need is nodejs/npm. Run 
+```
+    make prep run
+```
+to start a sample web server.
