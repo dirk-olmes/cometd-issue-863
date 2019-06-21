@@ -1,0 +1,20 @@
+{
+  "name": "cometd-rollup",
+  "version": "1.0.0",
+  "description": "Packing up cometd with rollup",
+  "author": "Dirk Olmes <dirk.olmes@codedo.de>",
+  "license": "ISC",
+  "main": "src/server.js",
+  "scripts": {
+    "rollup": "rollup -c"
+  },
+  "dependencies": {
+    "cometd": "4.0.4",
+    "express": "4.17.1"
+  },
+  "devDependencies": {
+    "rollup": "1.15.6",
+    "rollup-plugin-commonjs": "10.0.0",
+    "rollup-plugin-node-resolve": "5.0.3"
+  }
+}
